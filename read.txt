@@ -1,0 +1,21 @@
+/**********for server setup**********/
+
+run commands
+php artisan route:clear
+php artisan config:clear
+php artisan cache:clear
+php artisan view:clear
+
+delete bootstrap/cache/config.php
+php artisan vendor:publish --tag=flare-config 
+set 'collect_git_information' => false,
+
+Upload the Folders
+
+move public folder css,js,index,htacess to root directory
+
+change the 
+
+require __DIR__.'./vendor/autoload.php';
+$app = require_once __DIR__.'./bootstrap/app.php';
+

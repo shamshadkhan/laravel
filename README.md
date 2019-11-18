@@ -10,7 +10,7 @@ Procedure:
      1. sessions
      2. views
      3. cache
-4. rename file env.txt to .env
+4. rename file env to .env
 5. Connect database with proper credentials in database/database.php and .env
 3. Run the Apache
 4. Make sure to import database from database folder

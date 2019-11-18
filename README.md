@@ -6,7 +6,7 @@ Description: Its a small project using Laravel Framework PHP7,Mysql for running 
 Procedure:
 1. Make sure the xampp is installed
 2. Place the project in htdocs folder of xampp
-3. create these folders storage/framework under it create folders
+3. IN the root directory create these folders storage/framework under it create folders
      1. sessions
      2. views
      3. cache

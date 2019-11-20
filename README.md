@@ -21,7 +21,6 @@ Procedure:
      4. run command 'php artisan serve'
      5. bash provides the url go to the url http://127.0.0.1:8000/
     
-
-Demo: 
-     1. http://apptest.byethost14.com/laravel/
-     2. https://laravel-57.000webhostapp.com/ (used for nextjs_project for api)
+Demo:
+1. http://apptest.byethost14.com/laravel/
+2. https://laravel-57.000webhostapp.com/ (used for nextjs_project for api)

@@ -23,3 +23,4 @@ Procedure:
     
 
 Demo: http://apptest.byethost14.com/laravel/
+https://laravel-57.000webhostapp.com/ (used for nextjs_project for api)

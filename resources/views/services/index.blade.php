@@ -25,7 +25,7 @@
         @foreach($services as $service)
         <tr>
             <td>{{$service->id}}</td>
-            <td>{{$service->sub_title}}</td>
+            <td>{{$service->title}}</td>
             <td>{{$service->description}}</td>
             <td><a href="{{ route('services.edit',$service->id)}}" class="btn btn-primary">Edit</a></td>
             <td>

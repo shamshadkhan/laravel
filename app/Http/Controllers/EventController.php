@@ -50,7 +50,6 @@ class EventController extends Controller
                 'description'=> $request->get('description'),
                 'image'=> $file->getClientOriginalName()
             ]);
-            dd($event);
             $event->save();
             return redirect('/events')->with('success', config('constants.message.event.add'));
         }

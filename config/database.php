@@ -1,5 +1,5 @@
 <?php
-$DATABASE_URL=parse_url(‘DATABASE_URL’);
+$DATABASE_URL=parse_url('DATABASE_URL');
 echo $DATABASE_URL['path'];
 use Illuminate\Support\Str;
 
